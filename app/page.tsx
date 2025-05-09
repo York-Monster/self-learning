@@ -15,6 +15,8 @@ export default function Home() {
       <footer style={{ marginTop: "3rem", fontSize: "0.9rem", color: "gray" }}>
         © 2025 York Monster – Self-learning project using Vercel and Next.js
       </footer>
+
+      <p>Building: {process.env.NEXT_PUBLIC_BUILDING_NAME}</p>
     </main>
   );
 }
